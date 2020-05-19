@@ -46,14 +46,57 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dictionaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dictionaries.Designer.cs">
+      <DependentUpon>Dictionaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FoodPlanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FoodPlanner.Designer.cs">
+      <DependentUpon>FoodPlanner.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Memo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Memo.Designer.cs">
+      <DependentUpon>Memo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Note.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeeAllNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeAllNotes.Designer.cs">
+      <DependentUpon>SeeAllNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StandartNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StandartNote.Designer.cs">
+      <DependentUpon>StandartNote.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dictionaries.resx">
+      <DependentUpon>Dictionaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FoodPlanner.resx">
+      <DependentUpon>FoodPlanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Memo.resx">
+      <DependentUpon>Memo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +106,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SeeAllNotes.resx">
+      <DependentUpon>SeeAllNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandartNote.resx">
+      <DependentUpon>StandartNote.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
